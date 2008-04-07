@@ -133,7 +133,7 @@ class App
       
       # Pop lines off the end until we pop the last "end" off
       result = ""
-      while(!(result =~ /.*end.*/)) do
+      while(!(result =~ /.*(e|E)nd.*/)) do
         result = config_lines.pop
       end
       
