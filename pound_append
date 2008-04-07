@@ -119,7 +119,7 @@ class App
     def process_command
       site_match = @arguments[0]
       port = @arguments[1]
-      config = @options.confg || "/Users/djones/Code/mtools/pound.cfg"
+      config = @options.confg || "/etc/pound/pound.cfg"
       
       if @options.verbose
         puts "The site to match is: #{site_match}"
