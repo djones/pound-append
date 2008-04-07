@@ -1,0 +1,26 @@
+# == Synopsis 
+#   Allows you to programmatically add new sites to a pound configuration file
+#
+# == Examples
+#   This will add a new site to the configuration file running port 10200 matching requests "(www\.|)site\.com"
+#   So this would link both requests coming from www.site.com and site.com to go to 127.0.0.1:10200
+#
+#     pound_append "(www\.|)site\.com" 10200
+# == Usage 
+#   pound_append site_match local_port [options]
+#
+#   For help use: pound_append -h
+#
+# == Options
+#   -c, --config-path   [NOT COMPLETED] Defaults to /etc/pound/pound.cfg 
+#   -h, --help          Displays help message
+#   -v, --version       Display the version, then exit
+#   -q, --quiet         Output as little as possible, overrides verbose
+#   -V, --verbose       Verbose output
+#
+# == Author
+#   David Jones, www.d-jones.com
+#
+# == Copyright
+#   Copyright (c) 2008 David Jones. Licensed under the MIT License:
+#   http://www.opensource.org/licenses/mit-license.php
