@@ -21,7 +21,8 @@
 #   -V, --verbose       Verbose output
 #
 # == Author
-#   David Jones
+#   David Jones, http://www.d-jones.com
+#   Credits to Todd Weth (http://blog.infinitered.com) for the command-line application skeleton
 #
 # == Copyright
 #   Copyright (c) 2008 David Jones. Licensed under the MIT License:
